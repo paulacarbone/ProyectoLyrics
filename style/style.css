@@ -23,8 +23,8 @@ img{
 }
 
 h1{
-    color:rgb(185, 41, 161);
-    font-size: 50px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 input{

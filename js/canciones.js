@@ -44,7 +44,7 @@ $form.addEventListener("submit", async e => {
         }
 
         if(songData.lyrics === ""){
-            $songTemplate = `<h2> No existe la canción ${song} del artista/grupo ${artist}</h2>`;
+            $songTemplate = `<h2> No existe la canción "${song}" del artista/grupo "${artist}"</h2>`;
         }
         else{
             $songTemplate = `
