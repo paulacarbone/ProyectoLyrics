@@ -14,6 +14,6 @@ How to run this project:
 
 
 Members:
-Eizayaga Maria 
-Boniardi Lucas
+Eizayaga Maria. 
+Boniardi Lucas. 
 Carbone Paula
