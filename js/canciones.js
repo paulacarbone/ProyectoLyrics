@@ -30,8 +30,11 @@ $form.addEventListener("submit", async e => {
         else{
             let artist = artistData.artists[0];
             $artistTemplate = `
+			<br>
             <h2>${artist.strArtist}</h2>
             <img src="${artist.strArtistThumb}" alt="${artist.strArtist}">
+			<br>
+			<br>
             <p>${artist.intFormedYear} - ${(artist.intDiedYear||"Presente")}</p>
             <p>${artist.strCountry}</p>
             <p>${artist.strGenre} - ${artist.strStyle}</p>
@@ -47,6 +50,7 @@ $form.addEventListener("submit", async e => {
             $songTemplate = `
             <h2>${song.toUpperCase()}</h2>
             <blockquote>${songData.lyrics}</blockquote>
+			<br>
             `;
         }
 

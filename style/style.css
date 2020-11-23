@@ -86,32 +86,10 @@ input{
 } 
 
 
-/*
-.btn { 
-    text-decoration: none; 
-    border: none; 
-    padding: 12px 40px; 
-    font-size: 16px; 
-    background-color: green; 
-    color: #fff; 
-    border-radius: 5px; 
-    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24); 
-    cursor: pointer; 
-    outline: none; 
-    transition: 0.2s all; 
-    } 
-    / 
-          
-    .btn:active { 
-        transform: scale(0.98); 
-        Scaling button to 0.98 to its original size  
-        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
-        Lowering the shadow 
-    } 
-*/
+
 
 .artist{
-    background: rgba(199, 163, 197, 0.144);
+    background: rgba(199, 163, 197, 0.500);
 }
 
 #sitioWeb{
@@ -122,7 +100,7 @@ input{
 }
 
 .song{
-    background: rgba(199, 163, 197, 0.144);
+    background: rgba(199, 163, 197, 0.500);
 }
 .song p{
     white-space: pre-wrap;
@@ -132,16 +110,7 @@ input{
     white-space: pre-wrap;
 }
 
-/*
-aside{
 
-    color: #2d0c41e3;
-    display: inline-block;
-    padding: 10px 40px 5px;
-    border-radius: 20px;
-    font-size: 25px;
-}
-*/
 
 .error p{
     color: #2d0c41e3;
