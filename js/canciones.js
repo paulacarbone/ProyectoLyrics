@@ -6,6 +6,7 @@ $artist = d.querySelector(".artist"),
 $song = d.querySelector(".song");
 
 $form.addEventListener("submit", async e => {
+    e.preventDefault();
 
 	try{
         let artist = e.target.artist.value.toLowerCase(),
@@ -39,9 +40,19 @@ $form.addEventListener("submit", async e => {
             `;
         }
 
+        if(songData.lyrics === ""){
+            $songTemplate = `<h2> No existe la canción ${song} del artista/grupo ${artist}</h2>`;
+        }
+        else{
+            $songTemplate = `
+            <h2>${song.toUpperCase()}</h2>
+            <blockquote>${songData.lyrics}</blockquote>
+            `;
+        }
+
      
         $artist.innerHTML = $artistTemplate;
-       
+        $song.innerHTML = $songTemplate;
         
         
     } catch (err) {
