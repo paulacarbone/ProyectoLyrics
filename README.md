@@ -1,5 +1,5 @@
 # ProyectoLyrics
-Web browser of song lyrics and biography of artists.
+Web browser of song lyrics and artists biography.
 
 If you follow this link you can see the proyect live:
 https://songlyrycs-ifts161a.000webhostapp.com/
