@@ -11,6 +11,44 @@
 </head>
 <body>
   <div class="container col-auto mb-0">
+    <header class="col-auto text-center mt-5 mb-3">
+        <h1>Buscador de letras</h1>
+      </header>
+
+      <section class="col-auto text-center">
+
+        <form id="song-search">
+          <div class="form-group ">
+            <input type="text" class="" name="artist" placeholder="Ingresá artista..." required>
+          </div>
+          <br>
+          <div class="form-group">
+            <input type="text" class="" name="song" placeholder="Ingresá la canción..." required>
+          </div>
+          <br>
+          <button type="submit" class="btn btn-primary">Buscar</button>
+        </form>
+
+        <br>
+        <div class="col-auto text-center">
+          <aside class="error"> </aside>
+        </div>
+
+        
+
+        <main class="col-auto text-center"> 
+          <div class="col-auto text-center p-5" id="listImagenes">
+            <article class="artist">
+              <h2></h2>
+            </article>
+            <article class="song">
+              <h2> </h2>
+            </article>
+          </div>
+        </main>
+        
+      </section>
+    
       <nav class="col-auto text-center mt-0 mb-0" role="navigation">
         <hr mb-0>
         <footer class="page-footer align-items-center font-small indigo">
