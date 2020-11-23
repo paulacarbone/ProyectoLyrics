@@ -1,4 +1,4 @@
-#ProyectoLyrics
+**ProyectoLyrics**
 
 Web browser of song lyrics and artists biography.
 
