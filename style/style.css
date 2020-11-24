@@ -85,9 +85,6 @@ input{
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.534); 
 } 
 
-
-
-
 .artist{
     background: rgba(199, 163, 197, 0.500);
 }
@@ -108,17 +105,6 @@ input{
 
 .song blockquote{
     white-space: pre-wrap;
-}
-
-
-
-.error p{
-    color: #2d0c41e3;
-    background-color: #a060a857;
-    display: inline-block;
-    padding: 10px 40px 5px;
-    border-radius: 20px;
-    font-size: 25px;
 }
 
 nav{
